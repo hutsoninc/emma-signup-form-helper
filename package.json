@@ -1,0 +1,24 @@
+{
+  "name": "emma-signup-form-helper",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "isomorphic-fetch": "^2.2.1",
+    "parcel-bundler": "^1.8.1",
+    "parse5": "^5.0.0",
+    "property-drill": "^1.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "parcel src/index.html -d dev/",
+    "build": "parcel build src/index.html -d dist/",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": {
+    "name": "Austin Gordon",
+    "email": "agordon@hutsoninc.com",
+    "url": "https://github.com/AustinLeeGordon"
+  },
+  "license": "MIT"
+}
