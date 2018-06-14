@@ -4,9 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Emma Signup Form Helper</title>
+    
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <section class="main">
+        <h1>Emma Signup Form Helper</h1>
+        <p class="requirements">
+            Use with <a href="https://github.com/hutsoninc/react-emma-signup-form" target="_blank">react-emma-signup-form</a> components. 
+            Must have <a href="https://chrome.google.com/webstore/detail/allow-control-allow-origi/nlfbmbojpeacfghkpbjhddihlkkiljbi/related?hl=en" target="_blank">this</a> Chrome extension installed and enabled.</p>
+        <h2>Signup Form URL</h2>
+        <input id="input" tabindex="1" type="text">
+        <div id="submit" tabindex="2">Submit</div>
+        <h2>Form Action URL</h2>
+        <input id="outputAction" tabindex="3"></input>
+        <h2>Form Elements</h2>
+        <textarea id="outputElements" tabindex="4"></textarea>
+        <h2>Instructions</h2>
+        <ul>
+            <li>Use 'name' attributes for form elements. Other attributes, such as 'id', can be your own.</li>
+            <li>Pass number from hidden 'group' input fields as props, shown <a href="https://github.com/hutsoninc/react-emma-signup-form">here</a>.</li>
+            <li>Ignore any other hidden input fields.</li>
+        </ul>
+    </section>
+    <div id="fetched-content"></div>
+
     <script src="index.js"></script>
 </body>
 </html>
